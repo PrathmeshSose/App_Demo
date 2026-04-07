@@ -1,3 +1,6 @@
+self.addEventListener('install', () => {
+  console.log("App Installed");
+});
 /* ── Navbar drawer ─────────────────────────── */
 function openNav() {
   document.getElementById('nav').classList.add('show');
